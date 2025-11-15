@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: all;
+}
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+@custom-variant dark (&:where([data-theme=dim], [data-theme=dim] *));
+
+body {
+  /* background-color: #eeeeee; */
+  margin: 0;
+  font-family: "Patrick Hand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
