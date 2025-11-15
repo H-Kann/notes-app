@@ -1,12 +1,28 @@
-# React + Vite
+# Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic and lightweight notes application that allows users to create, view, edit, and delete notes using modern React components styled with DaisyUI’s elements. 
 
-Currently, two official plugins are available:
+# Screenshots
+<b>Light Mode</b>
+<p align="center"><img src="https://github.com/user-attachments/assets/f4262d9f-575b-484f-be12-efc22b6ac3c8"></p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<b>Dark Mode</b>
+<p align="center"><img src="https://github.com/user-attachments/assets/32480824-7eb9-41b1-a94e-5f8a4f47a7c0"></p>
 
-## Expanding the ESLint configuration
+# Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<ul>
+  <li><b>Create Notes</b>: Users can type and save new notes through a very basic and simple form.</li>
+  <li><b>Edit Notes</b>: Existing notes can be edited and updated.</li>
+  <li><b>Delete Notes</b>: Notes can also be removed with a click of a button.</li>
+  <li><b>Search for Notes</b>: The search bar allows users to search for specific notes.</li>
+  <li><b>Responsive UI</b>: DaisyUI components provide a clean layout and input styles.</li>
+  <li><b>State Management</b>: React's useState manages notes data.</li>
+  <li><b>Local Persistence</b>: Notes and the theme (Light or Dark) are stored in localStorage to persist across page reloads.</li>
+</ul> 
+
+# Demo
+
+https://github.com/user-attachments/assets/97bf52db-b80e-42f3-9cdf-ec985166c16b
+
+
